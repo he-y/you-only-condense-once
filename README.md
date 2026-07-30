@@ -15,10 +15,10 @@ cd you-only-condense-once
 ```
 
 Second, create conda environment:
-The code has been tested with `Pytorch 1.11.0` with `Python 3.9.15`.
+The environment uses `PyTorch 2.1.0` and requires `Python 3.10` or newer.
 ```
 # create conda environment
-conda create -n yoco python=3.9
+conda create -n yoco python=3.10
 conda activate yoco
 ```
 
